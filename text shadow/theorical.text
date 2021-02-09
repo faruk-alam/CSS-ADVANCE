@@ -1,0 +1,20 @@
+CSS3 Drop Shadows
+The CSS3 gives you ability to add drop shadow effects to the elements like you do in 
+Photoshop without using any images. Prior to CSS3, sliced images are used for creating the 
+shadows around the elements that was quite annoying.
+Text-shadow
+this CSS property adds shadows to the text. It accepts the comma-separated list of shadows 
+that applied to the text. It's default property is none. It applies one or more than one 
+text-shadow effect on the element's text content.
+The Syntax for text-shadow is:
+
+text-shadow{ x-offset, y-offset, blur-radius, color}
+x-offset Set the horizontal offset of shadow,a positive value means shadow to the right of 
+text and negative value means shadow to the left
+
+y-offset Sets the vertical offset of the shadow, a positive value means shadow below the 
+text, while a negative value means shadow above the text
+
+blur-radius: To set the blur-radius, negative values not allowed. (Optional, can be ignored)
+
+color To set the color of the shadow. If nothing is specified the default color is black
