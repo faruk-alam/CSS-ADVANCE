@@ -1,0 +1,28 @@
+CSS3 Drop Shadows
+The CSS3 gives you ability to add drop shadow effects to the elements like you do in 
+Photoshop without using any images. Prior to CSS3, sliced images are used for creating the 
+shadows around the elements that was quite annoying.
+Box shadow
+The box-shadow property can be used to add shadow to the element's boxes. You can even 
+apply more than one shadow effects using a comma-separated list of shadows. The basic 
+syntax of creating a box shadow can be given with:
+text-shadow{ x-offset, y-offset, blur-radius, color}
+x-offset Set the horizontal offset of shadow,a positive value means shadow to the right of 
+text and negative value means shadow to the left
+
+y-offset Sets the vertical offset of the shadow, a positive value means shadow below the 
+text, while a negative value means shadow above the text
+
+blur-radius: To set the blur-radius, negative values not allowed. (Optional, can be ignored)
+
+color To set the color of the shadow. If nothing is specified the default color is black
+spread: It sets the shadow size. The spread size depends upon the spread value.
+
+color: As its name implies, this attribute is used to set the color of the shadow. It is 
+an optional attribute.
+
+inset: Normally, the shadow generates outside of the box, but by using inset, the shadow 
+can be created within the box.
+
+Note: When adding the box-shadow, if the value for the blur-radius component is not 
+specified, or set to zero (0), the edges of the shadow will be sharp.
