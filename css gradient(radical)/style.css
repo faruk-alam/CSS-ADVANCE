@@ -1,0 +1,10 @@
+#grad1{
+    height: 250px;
+    width: 250px;
+    background: radial-gradient(hotpink,yellow,blue);
+}
+#grad2{
+    height: 250px;
+    width: 250px;
+    background: radial-gradient(blue 5%, green 15%, red 60%);
+}

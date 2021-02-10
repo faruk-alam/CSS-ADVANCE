@@ -1,0 +1,14 @@
+
+CSS Gradient
+CSS gradient is used to display smooth transition within two or more specified colors.
+
+There are two types of gradient in CSS3.
+Linear gradients
+Radial gradients
+CSS Radial Gradient
+You must have to define at least two color stops to create a radial gradient. It is 
+defined by its center.
+
+background: radial-gradient(shape size at position, start-color, ..., last-color);
+Evenly spaced color stops is a by default radial gradient. Its by default shape is eclipse,
+ size is farthest- carner, and position is center.  
