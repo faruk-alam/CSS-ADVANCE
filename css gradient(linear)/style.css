@@ -1,0 +1,10 @@
+/* CSS Linear Gradient: (Top to Bottom) */
+#grad1{
+    height: 150px;
+    background: linear-gradient(to bottom,red,green);
+}
+/* CSS Linear Gradient: (Left to Right) */
+#grad2{
+    height: 150px;
+    background: linear-gradient(to right,red,green);
+}

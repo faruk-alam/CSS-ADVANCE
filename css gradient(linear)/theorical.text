@@ -1,0 +1,14 @@
+
+CSS Gradient
+CSS gradient is used to display smooth transition within two or more specified colors.
+
+There are two types of gradient in CSS3.
+Linear gradients
+Radial gradients
+CSS Linear Gradient
+The CSS3 linear gradient goes up/down/left/right and diagonally. To create a CSS3 linear 
+gradient, you must have to define two or more color stops. The color stops are the colors 
+which are used to create a smooth transition. Starting point and direction can also be 
+added along with the gradient effect.
+
+background: linear-gradient (direction, color-stop1, color-stop2.....);  
