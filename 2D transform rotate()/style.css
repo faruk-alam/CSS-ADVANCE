@@ -1,7 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-.rotate{
+.scale{
     height: 100px;
     width: 100px;
     line-height: 35px;
@@ -9,18 +9,18 @@ body{
     text-align: center;
     margin-left: 25px;
 }
-/* CSS3 2D Transform: rotate 180degree*/
-.rotate1:hover{
-    transform: rotate(150deg);
+/* CSS3 2D Transform: scalex*/
+.scale1:hover{
+    transform:scaleX(1.8);
 }
-/* CSS3 2D Transform: rotate 360degree */
-.rotate2:hover{
-    transform: rotate(250deg);
+/* CSS3 2D Transform: scaley */
+.scale2:hover{
+    transform:scaleY(1.5);
 }
-/* CSS3 2D Transform: rotate -250degree */
+/* CSS3 2D Transform: scale */
 
-.rotate3:hover{
-    transform: rotate(-250deg);
+.scale3:hover{
+    transform: scale(1.5);
 }
 
 
