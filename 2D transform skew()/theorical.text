@@ -1,0 +1,49 @@
+CSS Transforms
+CSS3 supports transform property. This transform property facilitates you to translate, 
+rotate, scale, and skews elements.
+
+Transformation is an effect that is used to change shape, size and position.
+
+There are two type of transformation i.e. 2D and 3D transformation supported in CSS3.
+CSS 2D Transforms:
+The CSS 2D transforms are used to re-change the structure of the element as translate, 
+rotate, scale and skew etc.
+Following is a list of 2D transforms methods:
+1) 
+The translate() method:
+The CSS translate() method is used to move an element from its current position according 
+to the given parameters i.e. X-axis and Y-axis.
+translate()	    Moves the element along X or Y axis based on two comma seperated values(in 
+                length units or percent)
+translateX()	Moves the element along the X axis by the specified length or percentage
+translateY()	Moves the element along the Y axis by the specified length or percentage
+2) 
+The rotate() method:
+The CSS rotate() method is used to rotate an element clockwise or anti-clockwise according 
+to the given degree.
+rotate()	   Rotates the element along its anchor point by the specified angle.
+3)
+The scale() method
+The CSS scale() method is used to increase or decrease the size of an element according to 
+the given width and height.
+ScaleX()	Scales the element along its X axis by specified scaling factor.
+ScaleY()	Scales the element along its Y axis by specified scaling factor.
+scale()	    Scales the element along both its X and Y axis by specified scaling factor.
+4)
+The CSS skew() method is used to skew an element along with X-axis and Y-axis according to 
+the given angle.
+scale()	    Scales the element along both its X and Y axis by specified scaling factor.
+skewX()	    Skews the element along its X axis by the specified angle
+skewY()	    Skews the element along its Y axis by the specified angle  
+5)
+The matrix() method:
+The CSS matrix() method combines all the six 2D transform methods altogether. It allows 
+you to rotate, scale, translate, and skew elements.
+
+Syntax:
+
+The parameters of matrix method: matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),
+translateY())  
+matrix()	Applies 2D trasform on the element using a matrix with 6 values.
+
+

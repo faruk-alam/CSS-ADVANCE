@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.skew{
+    height: 100px;
+    width: 100px;
+    line-height: 35px;
+    background-color: aqua;
+    text-align: center;
+    margin-left: 25px;
+}
+/* CSS3 2D Transform: skewx*/
+.skew1:hover{
+    transform:skewX(15deg);
+}
+/* CSS3 2D Transform: skewy */
+.skew2:hover{
+    transform:skewY(50deg);
+}
+/* CSS3 2D Transform: skew */
+
+.skew3:hover{
+    transform: skew(-30deg);
+}
+
+
+
+
+
