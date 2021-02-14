@@ -1,0 +1,29 @@
+CSS 3d transform:
+The CSS3 3D transform feature allows elements to be transformed in 3D space.
+3D Transformation of Elements
+With CSS3 3D transform feature you can perform basic transform manipulations such as move, 
+rotate, scale and skew on elements in a three-dimensional space.
+
+A transformed element doesn't affect the surrounding elements, but can overlap them, just 
+like the absolutely positioned elements. However, the transformed element still takes 
+space in the layout at its default (un-transformed) location.
+Using CSS Transform and Transform Functions
+The CSS3 transform property uses the transform functions to manipulate the coordinate 
+system used by an element in order to apply the transformation effect.
+The CSS 3D transforms facilitates you to move an element to X-axis, Y-axis and Z-axis. Following is a list of 3D transforms methods:
+
+Function	Description
+matrix3D(n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n)	It specifies a 3D transformation, using a 4x4 matrix of 16 values.
+translate3D(x,y,z)	It specifies a 3D translation.
+translateX(x)	It specifies 3D translation, using only the value for the X-axis.
+translateY(y)	It specifies 3D translation, using only the value for the Y-axis.
+translateZ(z)	It specifies 3D translation, using only the value for the Z-axis.
+scale3D(x,y,z)	It specifies 3D scale transformation
+scaleX(x)	It specifies 3D scale transformation by giving a value for the X-axis.
+scaley(y)	It specifies 3D scale transformation by giving a value for the Y-axis.
+scaleZ(z)	It specifies 3D scale transformation by giving a value for the Z-axis.
+rotate3D(X,Y,Z,angle)	It specifies 3D rotation along with X-axis, Y-axis and Z-axis.
+rotateX(angle)	It specifies 3D rotation along with X-axis.
+rotateY(angle)	It specifies 3D rotation along with Y-axis.
+rotateZ(angle)	It specifies 3D rotation along with Z-axis.
+perspective(n)	It specifies a perspective view for a 3D transformed element
