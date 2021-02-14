@@ -1,0 +1,10 @@
+CSS Transition:
+Normally when the value of a CSS property changes, the rendered result is instantly updated
+A common example is changing the background color of a button on mouse hover. In a normal 
+scenario the background color of the button is changes immediately from the old property 
+value to the new property value when you place the cursor over the button.
+CSS3 introduces a new transition feature that used to change the element gradually 
+from one style to another, without using flash or JavaScript.
+You should specify two things to create CSS transition.
+The CSS property on which you want to add an effect.
+The time duration of the effect.
