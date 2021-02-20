@@ -1,0 +1,35 @@
+CSS Animation
+CSS Animation property is used to create animation on the webpage. It can be used as a 
+replacement of animation created by Flash and JavaScript.
+What animation does:
+An animation makes an element change gradually from one style to another. You can add as 
+many as properties you want to add. You can also specify the changes in percentage.0% 
+specify the start of the animation and 100% specify its completion.
+CSS animation properties:
+Property	Description
+@keyframes	It is used to specify the animation.
+animation	This is a shorthand property, used for setting all the properties, except the animation-play-state and the animation-fill- mode property.
+animation-delay	It specifies when the animation will start.
+animation-direction	It specifies if or not the animation should play in reserve on alternate cycle.
+animation-duration	It specifies the time duration taken by the animation to complete one cycle.
+animation-fill-mode	it specifies the static style of the element. (when the animation is not playing)
+animation-iteration-count	It specifies the number of times the animation should be played.
+animation-play-state	It specifies if the animation is running or paused.
+animation-name	It specifies the name of @keyframes animation.
+animation-timing-function	It specifies the speed curve of the animation.
+Defining Keyframes
+When the animation is created in the @keyframe rule, it must be bound with selector; otherwise the animation will have no effect.
+
+The animation could be bound to the selector by specifying at least these two properties:
+
+The name of the animation
+The duration of the animation
+Keyframes are used to specify the values for the animating properties at various stages of 
+the animation. Keyframes are specified using a specialized CSS at-rule — @keyframes. The 
+keyframe selector for a keyframe style rule starts with a percentage (%) or the keywords 
+from (same as 0%) or to (same as 100%). The selector is used to specify where a keyframe 
+is constructed along the duration of the animation.
+
+Percentages represent a percentage of the animation duration, 0% represents the starting 
+point of the animation, 100% represents the end point, 50% represents the midpoint and so 
+on. That means, a 50% keyframe in a 2s animation would be 1s into an animation.

@@ -1,0 +1,45 @@
+img{
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    border-radius: 50%;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    animation-name: ani-pic;
+    animation-duration: 3s;
+}
+@keyframes ani-pic{
+    0%{
+    top: 0;
+    left: 0;
+    }
+    50%{
+     top: 110px; 
+     left:180px;  
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+
+}
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 80px auto;
+    text-align: center;
+    background-color:  orangered;
+    color: peachpuff;
+    animation-name: ani-box;
+    animation-duration: 2s;
+}
+
+@keyframes ani-box{
+    from{
+        background-color: orangered;
+    }
+    to{
+        background-color: blueviolet;
+    }
+}
