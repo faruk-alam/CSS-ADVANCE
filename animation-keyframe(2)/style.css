@@ -1,0 +1,49 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.sky{
+    height: 40%;
+    position: relative;
+    background-color: skyblue;
+}
+.grass{
+    height: 30%;
+    position: relative;
+    background-color: seagreen;
+}
+.road{
+    height: 30%;
+    position: relative;
+    background-color: dimgray;
+    box-sizing: border-box;
+    border-top: 5px solid grey;
+    border-bottom: 5px solid grey;
+}
+.line{
+    height: 0%;
+    width: 100%;
+    border: 5px dashed white;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+}
+.road img{
+    width: 45px; 
+    height: 90px;
+    margin-left: 30px;
+    animation-name: run;
+    animation-duration: 3s;
+}
+@keyframes run{
+    from{
+     transform: translateX(0px);
+    }
+    to{
+      transform: translateX(650px);
+    }
+
+}
