@@ -1,0 +1,10 @@
+CSS Tooltips
+CSS Tooltips are a great way to display extra information about something when the user 
+moves the mouse cursor over an element.
+
+By using tooltips, you can display the position of the tooltip information in four ways:
+
+Top of the element
+Left side of the element
+Right side of the element
+Bottom of the element
