@@ -1,0 +1,14 @@
+CSS BOX SIZING:
+With CSS3 box sizing feature you can control element's effective width.
+By default, the actual width or height of an element's box visible/rendered on a web page 
+depends on its width or height, padding and border property. For example, if you apply 
+some padding and border on a <div> element with 100% width the horizontal scrollbar will 
+appear,This is very common problem that web designers are facing for a long time. But, 
+CSS3 introduces the box-sizing property to solve this problem and make the CSS layouts 
+much more simple and intuitive. The box-sizing property alter the default CSS box model 
+in such a way that, any padding or border specified on the element is laid out and drawn 
+inside of the content area, so that the rendered width and height of the element is equal 
+to the specified CSS width and height properties.
+When using the CSS box-sizing property the resulting width and height of the content area 
+are calculated by subtracting the border and padding widths of the respective sides from 
+the specified width and height properties.
