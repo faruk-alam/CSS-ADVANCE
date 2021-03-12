@@ -1,0 +1,13 @@
+.content{
+    text-align: center;
+    background-color: #d87450;
+    color: #333;
+    line-height: 1.2rem;
+    padding: 25px 5px;
+}
+@media only screen and (orientation: landscape){
+    .content{
+    
+        background-color: lightblue;
+}
+}
