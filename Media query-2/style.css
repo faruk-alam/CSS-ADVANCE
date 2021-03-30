@@ -1,0 +1,18 @@
+.content{
+    text-align: center;
+    background-color: lightsteelblue;
+    color: #333;
+    line-height: 1.2rem;
+    padding: 25px 5px;
+}
+span{
+    color: crimson;
+}
+@media screen and (max-width: 600px){
+    .content p{
+    color: magenta;
+    }
+    span{
+        display: none;
+    }
+}
