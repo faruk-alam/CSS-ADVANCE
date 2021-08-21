@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+    background: white;  
+}
+html,body{
+    height: 100%;
+    background: #ccc;
+    padding: 20px;
+}
+.area-one{
+    width: 40%;
+    float: left;
+    height: 100%;
+    margin-right: 1em;
+}
+h2{
+    background: #900;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 15px;
+    color: white;
+    margin: 0;
+}
+.content {
+    padding: 15px;
+    /* height: 100%; */
+    /* using calc method  */
+    height: calc(100% - 70px); 
+    overflow: auto;
+    background: red;
+}
+p{
+    margin: 0 0 1em 0;
+}

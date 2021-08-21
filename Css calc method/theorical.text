@@ -1,0 +1,16 @@
+CSS calc() Method:
+
+It is an inbuilt CSS function which allows us to perform calculations. It can be used to 
+calculate length, percentage, time, number, integer frequency, or angle. It uses the four 
+simple arithmetic operators add (+), multiply (*), subtract (-), and divide (/).
+Syntax
+calc(Parameter Expression);  
+Values
+This CSS function takes a single parameter expression, and the result of this mathematical 
+expression will be used as a value. It can be any simple expression using the four 
+arithmetic operators (+, -, *, /). The expression is mandatory to define.
+
+All CSS Preprocessors do have math functions and they are pretty useful. But they aren’t 
+quite as powerful as native math. The most useful ability of calc() is its ability to mix 
+units, like percentages and pixels. No Preprocessor will ever be able to do that. It is 
+something that has to happen at render time.
