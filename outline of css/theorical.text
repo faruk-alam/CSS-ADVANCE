@@ -1,0 +1,30 @@
+Css outline:
+
+The outline property in CSS draws a line around the outside of an element. It’s similar to 
+border except that:
+
+It always goes around all the sides, you can’t specify particular sides
+It’s not a part of the box model, so it won’t affect the position of the element or 
+adjacent elements (nice for debugging!)
+Other minor facts include that it doesn’t respect border-radius (makes sense I suppose as 
+it’s not a border) and that it isn’t always rectangular. If the outline goes around an 
+inline element with different font-sizes, for instance, Opera will draw a staggered box 
+around it all.
+
+It is often used for accessibility reasons, to emphasize a link when tabbed to without 
+affecting positioning and in a different way than hover.
+
+a:focus {
+  outline: 1px dashed red;
+}
+
+Notes:
+You can’t set an outline on just one (or two, or three) sides of an elements. All sides 
+only. There is no such thing as outline-top, outline-right, outline-bottom, or outline-left
+like there is with border.
+Try opening up the console on any website and running document.head.insertAdjacentHTML
+("beforeend", "<style>* { outline: 1px solid red; }</style>"); – you’ll see a lot of the 
+sites structure that way.
+outline is used for :focus styles by default. Remember if you ever remove outline styles, 
+like a:focus { outline: 0; }, you need to add them back in using some other kind of 
+visually distinct style.
